@@ -1,0 +1,74 @@
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 25px;
+}
+
+.informacoes {
+  padding: 25px;
+  display: flex;
+  text-align: justify;
+}
+
+.informacoes .curiosidades li {
+  list-style: square inside;
+  padding: 0 25px;
+}
+
+.informacoes .contatos li {
+  list-style: square inside;
+  padding: 0 25px;
+  font-weight: bold;
+}
+
+.informacoes p {
+  padding: 0 25px;
+}
+
+.informacoes h3 {
+  font-size: 1.5rem;
+  padding: 25px;
+}
+
+.informacoes img {
+  width: 50%;
+}
+
+.links_sociais {
+  display: flex;
+  margin-top: 25px;
+}
+
+.links_sociais img {
+  width: 50px;
+}
+
+.links_sociais li{
+  list-style: none;
+  padding: 0 25px;
+}
+
+figure {
+  border: 5px dashed black;
+}
+
+.aprendizado {
+  font-size: 1.5rem;
+  padding: 25px;
+}
+
+.aprendizado .tecnologias {
+  display: flex;
+}
+
+.aprendizado .tecnologias figure {
+  padding: 25px;
+  margin: 25px auto;
+  text-align: center;
+  background-color: #FFF;
+  
+}
+
+.aprendizado .tecnologias img {
+  width: 150px;
+}
